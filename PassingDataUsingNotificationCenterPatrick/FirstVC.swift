@@ -16,6 +16,9 @@ class FirstVC: UIViewController {
         super.viewDidLoad()
 
         NotificationCenter.default.addObserver(self, selector: #selector(doSomethingAfterNotified),name : NSNotification.Name(rawValue :myNotificationKey), object: nil)
+
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(getDictData), name: NSNotification.Name(rawValue: "notify"), object: nil)
         
 
         
@@ -33,6 +36,16 @@ class FirstVC: UIViewController {
         print("Recive Notification\(arrayObject)")
         
     }
+    
+    
+    func getDictData(notification : NSNotification)
+    {
+        
+        let dictData = notification.object as! [String : Int]
+        
+        print("DictData is \(dictData)")
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

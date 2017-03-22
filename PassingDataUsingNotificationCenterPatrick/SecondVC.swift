@@ -23,6 +23,7 @@ class SecondVC: UIViewController {
         
         
         NotificationCenter.default.addObserver(self, selector: #selector(doThisWhenNotify), name: NSNotification.Name(rawValue: myNotificationKey), object: nil)
+        
 
     }
 
@@ -35,10 +36,15 @@ class SecondVC: UIViewController {
     @IBAction func tabToNotifyBack(_ sender: UIButton) {
         
         let arrayObject : [String] = ["1","2","3"]
+        let dictObject : [String : Int] = [ "1":1, "2":2,"3":3]
+        
+
 
         secondVCLabel.text = "Notification Completed!😜"
         
         NotificationCenter.default.post(name: NSNotification.Name(rawValue: myNotificationKey), object: arrayObject)
+        
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "notify"), object: dictObject)
         
     }
     func doThisWhenNotify() {
