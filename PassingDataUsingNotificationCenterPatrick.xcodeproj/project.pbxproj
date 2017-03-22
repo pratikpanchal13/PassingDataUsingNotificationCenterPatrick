@@ -14,6 +14,8 @@
 		A90DBDAC1E82483500E532D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90DBDAA1E82483500E532D0 /* LaunchScreen.storyboard */; };
 		A90DBDB71E82483600E532D0 /* PassingDataUsingNotificationCenterPatrickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90DBDB61E82483600E532D0 /* PassingDataUsingNotificationCenterPatrickTests.swift */; };
 		A90DBDC21E82483600E532D0 /* PassingDataUsingNotificationCenterPatrickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90DBDC11E82483600E532D0 /* PassingDataUsingNotificationCenterPatrickUITests.swift */; };
+		A90DBDD01E82487600E532D0 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90DBDCF1E82487600E532D0 /* FirstVC.swift */; };
+		A90DBDD21E82488400E532D0 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90DBDD11E82488400E532D0 /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A90DBDBD1E82483600E532D0 /* PassingDataUsingNotificationCenterPatrickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassingDataUsingNotificationCenterPatrickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90DBDC11E82483600E532D0 /* PassingDataUsingNotificationCenterPatrickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassingDataUsingNotificationCenterPatrickUITests.swift; sourceTree = "<group>"; };
 		A90DBDC31E82483600E532D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90DBDCF1E82487600E532D0 /* FirstVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		A90DBDD11E82488400E532D0 /* SecondVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				A90DBDA81E82483500E532D0 /* Assets.xcassets */,
 				A90DBDAA1E82483500E532D0 /* LaunchScreen.storyboard */,
 				A90DBDAD1E82483500E532D0 /* Info.plist */,
+				A90DBDCF1E82487600E532D0 /* FirstVC.swift */,
+				A90DBDD11E82488400E532D0 /* SecondVC.swift */,
 			);
 			path = PassingDataUsingNotificationCenterPatrick;
 			sourceTree = "<group>";
@@ -263,6 +269,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A90DBDA41E82483500E532D0 /* ViewController.swift in Sources */,
+				A90DBDD01E82487600E532D0 /* FirstVC.swift in Sources */,
+				A90DBDD21E82488400E532D0 /* SecondVC.swift in Sources */,
 				A90DBDA21E82483500E532D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
